@@ -1,0 +1,23 @@
+
+
+.form {
+    @apply flex flex-col justify-center items-center w-full;
+
+    input {
+        @apply w-full;
+    }
+}
+
+.buttons {
+    @apply flex justify-between items-center w-full mt-20;
+
+    .login {
+        @apply bg-[#D7D8EF] rounded-2xl text-[#21268F] shadow py-1 px-8
+        hover:bg-[#ccccff] hover:shadow-md transition-all;
+    }
+
+    .register {
+        @apply text-[#ECECF9] rounded-2xl bg-[#21268F] shadow py-1 px-14
+        hover:bg-[#000080] hover:shadow-md transition-all;
+    }
+}

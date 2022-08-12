@@ -1,0 +1,12 @@
+.wrapper {
+    @apply bg-[#F9F9FE] shadow-md rounded-md py-5 px-6
+    flex flex-col justify-center items-center;
+
+    .title {
+        @apply font-semibold text-[#2D2E46] text-2xl mb-8;
+    }
+
+    .subTitle {
+        @apply font-semibold text-[#2D2E46] text-xl mb-4;
+    }
+}

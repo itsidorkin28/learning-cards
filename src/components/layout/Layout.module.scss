@@ -1,0 +1,7 @@
+.layout {
+    @apply relative w-full;
+
+    .content {
+        @apply my-6 mx-32 flex justify-center items-center;
+    }
+}

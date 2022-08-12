@@ -1,0 +1,7 @@
+.topBar {
+    @apply w-full h-16 bg-[#EBE0E9] flex justify-center items-center shadow-md;
+
+    .appTitle {
+        @apply text-[#2D2E46] font-semibold text-2xl;
+    }
+}
